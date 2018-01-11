@@ -1,3 +1,3 @@
 1.ContentProvider 启动比 Application早
 2.SharedPreferences#apply方法和主线程公用一个锁，容易导致ANR
-3.
+3.查看某段代码附近的栈，可以通过new Exception(), 然后把Exception打印出来，来查看当前对应的方法栈
