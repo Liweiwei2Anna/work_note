@@ -1,0 +1,1 @@
+1.SharedPreference会在第一次加载的时候，把所有属性加载到内存，所以刚启动的时候，尽量不要在主线程加载SharedPrefrences
