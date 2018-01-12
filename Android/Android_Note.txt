@@ -4,5 +4,5 @@
 
 3.查看某段代码附近的栈，可以通过new Exception(), 然后把Exception打印出来，来查看当前对应的方法栈
 
-4.Android 5.0之后通过JobService来应用保活，但是国内部分手机做了限制，皮肤小米，JobService的最小间隔是60s
+4.Android 5.0之后通过JobService来应用保活，但是国内部分手机做了限制，譬如小米，JobService的最小间隔是60s
 
