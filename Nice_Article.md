@@ -7,3 +7,5 @@ Doze模式：http://blog.csdn.net/q1183345443/article/details/61922910
 网络协议：Http 1.0 VS  Http 1.1  VS  Http 2.0:https://www.jianshu.com/p/52d86558ca57
 
 非常好的文章：Java并发编程：volatile关键字解析：http://www.importnew.com/18126.html
+
+浅谈JVM中的垃圾回收：https://www.jianshu.com/p/2a8d6231d995
