@@ -13,3 +13,5 @@ Doze模式：http://blog.csdn.net/q1183345443/article/details/61922910
 PECS法则：http://leekai.me/java-extends-super/
 
 类的加载时机：https://www.jianshu.com/p/5f3278916b38
+
+Http愿景
