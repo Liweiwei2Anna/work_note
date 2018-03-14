@@ -17,3 +17,5 @@ PECS法则：http://leekai.me/java-extends-super/
 OKHttp愿景:https://www.jianshu.com/p/ca8a982a116b
 
 OKHttp原理:http://yourbay.me/all-about-tech/2017/03/29/okhttp-inner-logic/
+
+Android微信智能心跳方案:https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207243549&idx=1&sn=4ebe4beb8123f1b5ab58810ac8bc5994&scene=4#wechat_redirect
