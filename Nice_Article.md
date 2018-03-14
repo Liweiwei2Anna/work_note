@@ -15,3 +15,5 @@ PECS法则：http://leekai.me/java-extends-super/
 类的加载时机：https://www.jianshu.com/p/5f3278916b38
 
 OKHttp愿景:https://www.jianshu.com/p/ca8a982a116b
+
+OKHttp原理:http://yourbay.me/all-about-tech/2017/03/29/okhttp-inner-logic/
