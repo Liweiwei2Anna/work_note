@@ -14,4 +14,4 @@ PECS法则：http://leekai.me/java-extends-super/
 
 类的加载时机：https://www.jianshu.com/p/5f3278916b38
 
-Http愿景:https://www.jianshu.com/p/ca8a982a116b
+OKHttp愿景:https://www.jianshu.com/p/ca8a982a116b
