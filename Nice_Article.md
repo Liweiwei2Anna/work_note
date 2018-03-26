@@ -22,3 +22,5 @@ Android微信智能心跳方案:https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ=
 
 Binder底层原理：https://juejin.im/post/58c90816a22b9d006413f624
               https://blog.csdn.net/happylishang/article/details/51784834
+
+修改字节码，插桩，Gradle插件：https://blog.csdn.net/sbsujjbcy/article/details/50839263
