@@ -28,3 +28,5 @@ Binder底层原理：https://juejin.im/post/58c90816a22b9d006413f624
 ASM:https://www.ibm.com/developerworks/cn/java/j-lo-asm30/
 
 synchronized原理：https://www.cnblogs.com/javaminer/p/3889023.html
+
+死锁避免：https://blog.csdn.net/ls5718/article/details/51896159
