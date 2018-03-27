@@ -26,3 +26,5 @@ Binder底层原理：https://juejin.im/post/58c90816a22b9d006413f624
 修改字节码，插桩，Gradle插件：https://blog.csdn.net/sbsujjbcy/article/details/50839263
 
 ASM:https://www.ibm.com/developerworks/cn/java/j-lo-asm30/
+
+synchronized原理：https://www.cnblogs.com/javaminer/p/3889023.html
