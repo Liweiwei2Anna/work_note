@@ -1,63 +1,63 @@
-ÍÆËÍ
+æ¨é€
 git push origin HEAD:refs/for/master
 
 find ./ "*.java" | xargs grep -rins "setDefaultUncaughtExceptionHandler"
 
-JiraÃüÁî
+Jiraå‘½ä»¤
 assignee = weiwei.li AND status was in (Reopened) AND updated >= 2017-04-01 AND updated < 2017-06-30
 
-Í¬²½ÇÒ±àÒë
+åŒæ­¥ä¸”ç¼–è¯‘
 repo sync -j48 && repo start master --all
 repo forall -c "git reset --hard && git pull --rebase && git clean -df"
 
-±àÒëÄÚºËÓ¦ÓÃ
+ç¼–è¯‘å†…æ ¸åº”ç”¨
 source rlk_setenv.sh cx_h501_d1 && mmm frameworks/base/packages/DocumentsUI
-source Ö®ºómake
+source ä¹‹åmake
 source rlk_setenv.sh k8_h3722_a1 && make -j48
 
 source tran_setenv.sh x572_h5312_a1 userdebug&& make -j16 2>&1 | tee build.log
 
-±àÒëpowersavemanagement
+ç¼–è¯‘powersavemanagement
 source tran_setenv.sh tran_projects/x572/x572_h5312_a1
 mmm packages/apps/PowersaveManagement/
 
-K8Ë¢»ú
+K8åˆ·æœº
 K8
 ./vendor/mediatek/proprietary/scripts/sign-image/sign_image.sh
 source rlk_setenv.sh k8_h3722_a1 && make -j48 2>&1 | tee build.log
 
 
 
-¶Ï¿ªÔ¶³Ìftp
+æ–­å¼€è¿œç¨‹ftp
 net use \\192.168.10.30\Linux_user8_Samba /del /y
 
-MTK LOG´ò¿ª	*#8#9646633#*#*
+MTK LOGæ‰“å¼€	*#8#9646633#*#*
 adb shell am broadcast -a com.mediatek.mtklogger.ADB_CMD -e cmd_name start --ei cmd_target 23
 
 
-Ñ§Ï°
+å­¦ä¹ 
 https://www.kancloud.cn/manual/thinkphp5/118003
 
 
-Ë¢IMEI
+åˆ·IMEI
 \\192.168.10.30\Linux_user6_Samba\share\AndroidO\out\target\product\k37mv1_64\vendor\etc\mddb\BPLGUInfoCustomAppSrcP_MT6735_S00_LR9_W1444_MD_LWTG_MP_W17_28_LTE_P6_1_lwg_n
 \\192.168.10.30\Linux_user6_Samba\share\AndroidO\out\target\product\k37mv1_64\obj\CGEN\APDB_MT6735_S01_alps-trunk-o0.tk_W17.29
 
 
-lsof -p PID ÎÄ¼ş¾ä±ú
+lsof -p PID æ–‡ä»¶å¥æŸ„
 
 
-GoogleÔ´Âë
+Googleæºç 
 http://androidxref.com/
 
-Google ´úÀí
+Google ä»£ç†
 10.16.13.18
 8080
 
-:set nuÏÔÊ¾ĞĞºÅ
-£ºĞĞÊı
+:set nuæ˜¾ç¤ºè¡Œå·
+ï¼šè¡Œæ•°
 
-/²éÕÒÄÚÈİ  nÏÂÒ»¸ö  NÉÏÒ»¸ö
+/æŸ¥æ‰¾å†…å®¹  nä¸‹ä¸€ä¸ª  Nä¸Šä¸€ä¸ª
 
 
 
@@ -70,27 +70,23 @@ http://192.168.10.10/#/c/176510/2
 https://juejin.im/post/59ffc0c651882512a860b1b4
 
 
-status:merged AND owner:"Ji Tingting(¼ÍÍ¢Í¢) <tingting.ji@reallytek.com>"  OR owner:"Xu Xiaodong(ĞìÏş¶«) <xiaodong.xu@reallytek.com>"  OR owner:"Yang Bincai£¨Ñî±ó²Å£© <bincai.yang@reallytek.com>" OR owner:"Li Jun(Àî¾ı) <jun.li@reallytek.com>"   OR owner:"Zhang Guoliang(ÕÅ¹úÁº) <guoliang.zhang@reallytek.com>" OR owner:"Song Zeyou(ËÎÔóÓÑ) <zeyou.song@reallytek.com>" OR owner:"Yu Qiwen(ÓàÆôÎÄ) <qiwen.yu@reallytek.com>"  OR  owner:"Xie Zheng(Ğ»Õş) <zheng.xie@reallytek.com>"  OR owner:"Shi Xinxin(Ê·ĞÂĞÂ) <xinxin.shi@reallytek.com>"
+ç³»ç»Ÿç­¾å
 
+1ã€ç¼–è¯‘androidæºç ã€‚
+2ã€cd build/target/product/security/ 
+3ã€æ‰§è¡Œ openssl pkcs8 -inform DER -nocrypt -in platform.pk8 -out platform.pem
+ç”Ÿæˆplatform.pemæ–‡ä»¶
+4ã€æ‰§è¡Œ openssl pkcs12 -export -in platform.x509.pem -out platform.p12 -inkey platform.pem -password pass:huld123 -name huld
+ç”Ÿæˆplatform.p12æ–‡ä»¶ï¼Œå…¶ä¸­huld ä¸ºaliasåï¼ˆappæ·»åŠ ç­¾åè¦ç”¨åˆ°ï¼‰ï¼Œhuld123 ä¸ºå¯†ç ã€‚
+5ã€æ‰§è¡Œ keytool -importkeystore -deststorepass huld123 -destkeystore platform.jks -srckeystore platform.p12 -srcstoretype PKCS12 -srcstorepass huld123
+ç”Ÿæˆplatform.jks ï¼ˆappæ‰“ç­¾åæœ€ç»ˆç”¨åˆ°çš„æ–‡ä»¶ï¼‰ï¼Œå…¶ä¸­-deststorepass huld123è®¾ç½®çš„æ˜¯è¿™ä¸ªç­¾åçš„å¯†ç ï¼Œä¸Šé¢æŒ‡ä»¤ä¸­çš„-src*çš„å…¶ä»–å‚æ•°éƒ½æ˜¯ä»å‰é¢ä¸¤ä¸ªæŒ‡ä»¤ä¸­ç”Ÿæˆçš„ã€‚
 
-ÏµÍ³Ç©Ãû
-
-
-1¡¢±àÒëandroidÔ´Âë¡£
-2¡¢cd build/target/product/security/ 
-3¡¢Ö´ĞĞ openssl pkcs8 -inform DER -nocrypt -in platform.pk8 -out platform.pem
-Éú³Éplatform.pemÎÄ¼ş
-4¡¢Ö´ĞĞ openssl pkcs12 -export -in platform.x509.pem -out platform.p12 -inkey platform.pem -password pass:huld123 -name huld
-Éú³Éplatform.p12ÎÄ¼ş£¬ÆäÖĞhuld ÎªaliasÃû£¨appÌí¼ÓÇ©ÃûÒªÓÃµ½£©£¬huld123 ÎªÃÜÂë¡£
-5¡¢Ö´ĞĞ keytool -importkeystore -deststorepass huld123 -destkeystore platform.jks -srckeystore platform.p12 -srcstoretype PKCS12 -srcstorepass huld123
-Éú³Éplatform.jks £¨app´òÇ©Ãû×îÖÕÓÃµ½µÄÎÄ¼ş£©£¬ÆäÖĞ-deststorepass huld123ÉèÖÃµÄÊÇÕâ¸öÇ©ÃûµÄÃÜÂë£¬ÉÏÃæÖ¸ÁîÖĞµÄ-src*µÄÆäËû²ÎÊı¶¼ÊÇ´ÓÇ°ÃæÁ½¸öÖ¸ÁîÖĞÉú³ÉµÄ¡£
-
-6¡¢½«Éú³ÉµÄplatform.jks ¿½±´µ½app¹¤³ÌÄ¿Â¼ÏÂ¡£
-7¡¢ÔÚ¶ÔÓ¦ĞèÒªÇ©ÃûµÄmoduleµÄbuild.gradleÖĞÌí¼ÓÈçÏÂ´úÂë£º
-//Ö¤ÊéĞÅÏ¢ÔÚÕâÀïÅäÖÃ
+6ã€å°†ç”Ÿæˆçš„platform.jks æ‹·è´åˆ°appå·¥ç¨‹ç›®å½•ä¸‹ã€‚
+7ã€åœ¨å¯¹åº”éœ€è¦ç­¾åçš„moduleçš„build.gradleä¸­æ·»åŠ å¦‚ä¸‹ä»£ç ï¼š
+//è¯ä¹¦ä¿¡æ¯åœ¨è¿™é‡Œé…ç½®
 signingConfigs {
     main {
-        storeFile file("./key/platform.jks") //Ç©ÃûÎÄ¼şÂ·¾¶
+        storeFile file("./key/platform.jks") //ç­¾åæ–‡ä»¶è·¯å¾„
         storePassword "huld123"
         keyAlias "huld"
         keyPassword "huld123"
