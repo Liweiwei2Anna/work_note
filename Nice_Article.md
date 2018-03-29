@@ -30,3 +30,5 @@ ASM:https://www.ibm.com/developerworks/cn/java/j-lo-asm30/
 synchronized原理：https://www.cnblogs.com/javaminer/p/3889023.html
 
 死锁避免：https://blog.csdn.net/ls5718/article/details/51896159
+
+Android硬件加速原理与实现简介:https://tech.meituan.com/hardware-accelerate.html
