@@ -34,3 +34,5 @@ synchronized原理：https://www.cnblogs.com/javaminer/p/3889023.html
 Android硬件加速原理与实现简介:https://tech.meituan.com/hardware-accelerate.html
 
 Android ANR原理分析：https://www.cnblogs.com/android-blogs/p/5718302.html
+
+Java并发编程:https://mp.weixin.qq.com/s/ajk_7-gDupcSr_BVjfCoEQ
