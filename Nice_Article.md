@@ -36,3 +36,5 @@ Android硬件加速原理与实现简介:https://tech.meituan.com/hardware-accel
 Android ANR原理分析：https://www.cnblogs.com/android-blogs/p/5718302.html
 
 Java并发编程:https://mp.weixin.qq.com/s/ajk_7-gDupcSr_BVjfCoEQ
+
+WebView性能、体验分析与优化:https://tech.meituan.com/WebViewPerf.html
