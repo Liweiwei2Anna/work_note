@@ -43,3 +43,7 @@ WebView性能、体验分析与优化:https://tech.meituan.com/WebViewPerf.html
 
 
 PWA:https://juejin.im/post/5a6c86e451882573505174e7
+
+H5移动端架构优化：https://www.cnblogs.com/lolDragon/p/7095449.html
+架构
+
