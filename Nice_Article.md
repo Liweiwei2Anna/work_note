@@ -47,3 +47,5 @@ PWA:https://juejin.im/post/5a6c86e451882573505174e7
 H5移动端架构优化：https://www.cnblogs.com/lolDragon/p/7095449.html
 架构
 
+Dex分包之旅:http://yydcdut.com/2016/03/20/split-dex/
+
