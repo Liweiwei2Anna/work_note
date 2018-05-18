@@ -53,3 +53,5 @@ Dex分包之旅:http://yydcdut.com/2016/03/20/split-dex/
 
 Chromium多线程模型设计和实现分析系列文章：https://blog.csdn.net/luoshengyang/article/details/46855395
 
+从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理：http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html
+
