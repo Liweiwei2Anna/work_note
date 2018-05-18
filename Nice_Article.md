@@ -51,3 +51,5 @@ H5移动端架构优化：https://www.cnblogs.com/lolDragon/p/7095449.html
 
 Dex分包之旅:http://yydcdut.com/2016/03/20/split-dex/
 
+Chromium多线程模型设计和实现分析系列文章：https://blog.csdn.net/luoshengyang/article/details/46855395
+
