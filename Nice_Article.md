@@ -39,6 +39,8 @@ Java并发编程:https://mp.weixin.qq.com/s/ajk_7-gDupcSr_BVjfCoEQ
 
 Android Crash处理流程：http://gityuan.com/2016/06/24/app-crash/
 
+Android Native Crash处理流程：http://gityuan.com/2016/06/25/android-native-crash/
+
 Chromium多线程模型设计和实现分析：https://blog.csdn.net/luoshengyang/article/details/46855395
 
 WebView性能、体验分析与优化:https://tech.meituan.com/WebViewPerf.html
