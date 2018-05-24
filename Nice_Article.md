@@ -61,3 +61,5 @@ Chromium多线程模型设计和实现分析系列文章：https://blog.csdn.net
 
 Android动态日志系统Holmes:https://tech.meituan.com/android_holmes.html
 
+美团点评移动端基础日志库——Logan:https://tech.meituan.com/Logan.html
+
