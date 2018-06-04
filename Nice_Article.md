@@ -67,3 +67,5 @@ ART下的方法内联策略及其对Android热修复方案的影响分析：http
 
 微信跨平台组件mars-xlog架构分析及迁移思路:https://zhuanlan.zhihu.com/p/25011775
 
+微信终端跨平台组件 mars 系列（一） - 高性能日志模块xlog：https://mp.weixin.qq.com/s/cnhuEodJGIbdodh0IxNeXQ
+
