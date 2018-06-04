@@ -65,3 +65,5 @@ Android动态日志系统Holmes:https://tech.meituan.com/android_holmes.html
 
 ART下的方法内联策略及其对Android热修复方案的影响分析：https://github.com/WeMobileDev/article/blob/master/ART%E4%B8%8B%E7%9A%84%E6%96%B9%E6%B3%95%E5%86%85%E8%81%94%E7%AD%96%E7%95%A5%E5%8F%8A%E5%85%B6%E5%AF%B9Android%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88%E7%9A%84%E5%BD%B1%E5%93%8D%E5%88%86%E6%9E%90.md
 
+微信跨平台组件mars-xlog架构分析及迁移思路:https://zhuanlan.zhihu.com/p/25011775
+
