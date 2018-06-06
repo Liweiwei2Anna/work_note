@@ -69,3 +69,5 @@ ART下的方法内联策略及其对Android热修复方案的影响分析：http
 
 微信终端跨平台组件 mars 系列（一） - 高性能日志模块xlog：https://mp.weixin.qq.com/s/cnhuEodJGIbdodh0IxNeXQ
 
+美团点评移动网络优化实践:https://tech.meituan.com/SharkSDK.html
+
