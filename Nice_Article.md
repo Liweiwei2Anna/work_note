@@ -75,3 +75,5 @@ ART下的方法内联策略及其对Android热修复方案的影响分析：http
 
 美团点评 境外业务性能优化实践:https://juejin.im/entry/5a609e0cf265da3e4f0a39a9
 
+Android Protobuf应用及原理:https://www.jianshu.com/p/acbc7df5decd?utm_source=oschina-app
+
