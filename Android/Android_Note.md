@@ -14,3 +14,5 @@
 7.当程序的compileSdkVersion SDK版本比较低的时候，此时想用高版本的API时，某种情况下可以使用反射调用新版本API，但某些时候是回调，不能直接使用反射，此时可以新建项目实现高版本接口，然后生成Jar文件，放到项目中即可。
 
 8.此种扫描实现指定接口的类，然后自动注册的插件，比较好用，值得借鉴：链接：https://github.com/luckybilly/AutoRegister
+
+9.输出LOG的时候，往往需要输入TAG，其实是可以省去的，通过 StackTraceElement ele = new Throwable().fillInStackTrace().getStackTrace()[index]; String.format("[%s,%d,%s] %s", ele.getFileName(), ele.getLineNumber(), ele.getMethodName(), msg); 其中index通过方法栈的深度来确定值，来输出LOG
