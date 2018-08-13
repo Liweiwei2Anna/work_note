@@ -85,3 +85,5 @@ Android Protobuf应用及原理:https://www.jianshu.com/p/acbc7df5decd?utm_sourc
 美团点评 境外业务性能优化实践:https://juejin.im/entry/5a609e0cf265da3e4f0a39a9e
 
 WebView:https://juejin.im/post/59a56b2151882524424a1862
+
+Android 高性能日志写入方案MMAP方案，Java层实现：https://juejin.im/post/5b6d26016fb9a04f86065cdf
