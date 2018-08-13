@@ -37,6 +37,8 @@ Android ANR原理分析：https://www.cnblogs.com/android-blogs/p/5718302.html
 
 Java并发编程:https://mp.weixin.qq.com/s/ajk_7-gDupcSr_BVjfCoEQ
 
+JavaPoet - 优雅地生成代码:https://www.jianshu.com/p/fba2eec47976
+
 应用于Android无埋点的Gradle插件解析:https://www.jianshu.com/p/250c83449dc0
 
 Android Crash处理流程：http://gityuan.com/2016/06/24/app-crash/
