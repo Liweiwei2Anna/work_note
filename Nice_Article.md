@@ -95,3 +95,6 @@ Android Native Hook:https://gtoad.github.io
 
 
 次时代Java编程(一) Java里的协程 | 出续篇 更新ed:https://segmentfault.com/a/1190000005342905
+
+Toast弹不出来：https://www.jianshu.com/p/1d64a5ccbc7c
+https://tech.meituan.com/2018/03/29/toast-snackbar-replace.html
