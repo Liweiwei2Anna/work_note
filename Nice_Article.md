@@ -102,3 +102,5 @@ https://tech.meituan.com/2018/03/29/toast-snackbar-replace.html
 【基本功】Java魔法类：Unsafe应用解析:https://mp.weixin.qq.com/s/h3MB8p0sEA7VnrMXFq9NBA
 
 Android 配置以及使用 Protobuf:http://yefangqingchen.com/2017/03/14/Android-%E9%85%8D%E7%BD%AE%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-Protobuf/
+
+View.post() 不靠谱的地方你知道吗？:https://www.cnblogs.com/plokmju/p/7481727.html
