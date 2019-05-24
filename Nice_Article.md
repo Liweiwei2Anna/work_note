@@ -108,3 +108,5 @@ View.post() 不靠谱的地方你知道吗？:https://www.cnblogs.com/plokmju/p/
 Android中尽量不用Storage Permission:https://blog.dreamtobe.cn/2015/11/30/android_storage_permission/
 
 Android O上service保活方案：https://www.jianshu.com/p/6d1f4e6b46d5
+
+Android系统篇之----解读AMS远端服务调用机制以及Activity的启动流程:https://blog.csdn.net/jiangwei0910410003/article/details/52549333
