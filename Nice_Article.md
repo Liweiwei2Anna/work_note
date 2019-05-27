@@ -112,3 +112,5 @@ Android O上service保活方案：https://www.jianshu.com/p/6d1f4e6b46d5
 Android系统篇之----解读AMS远端服务调用机制以及Activity的启动流程:https://blog.csdn.net/jiangwei0910410003/article/details/52549333
 
 Android系统篇之----Hook系统的AMS服务实现应用启动的拦截功能:https://blog.csdn.net/jiangwei0910410003/article/details/52550147
+
+Android 进程保活招式大全:http://renyugang.io/post/79
