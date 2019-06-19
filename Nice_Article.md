@@ -116,3 +116,6 @@ Android系统篇之----解读AMS远端服务调用机制以及Activity的启动�
 Android系统篇之----Hook系统的AMS服务实现应用启动的拦截功能:https://blog.csdn.net/jiangwei0910410003/article/details/52550147
 
 Android 进程保活招式大全:http://renyugang.io/post/79
+
+Android之View原理问题:https://juejin.im/post/5c3430656fb9a049fa0fee42
+
