@@ -119,3 +119,6 @@ Android 进程保活招式大全:http://renyugang.io/post/79
 
 Android之View原理问题:https://juejin.im/post/5c3430656fb9a049fa0fee42
 
+十分钟了解Android触摸事件原理（InputManagerService）:https://cloud.tencent.com/developer/article/1154110
+
+
