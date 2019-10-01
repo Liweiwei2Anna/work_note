@@ -123,4 +123,6 @@ Android之View原理问题:https://juejin.im/post/5c3430656fb9a049fa0fee42
 
 Android适配 - 桌面快捷方式：https://blog.csdn.net/scau_zhangpeng/article/details/88259464
 
+java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一:https://blog.csdn.net/s10461/article/details/53941091
+
 
