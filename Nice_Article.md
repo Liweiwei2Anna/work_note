@@ -125,4 +125,6 @@ Android适配 - 桌面快捷方式：https://blog.csdn.net/scau_zhangpeng/articl
 
 java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一:https://blog.csdn.net/s10461/article/details/53941091
 
+扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略:https://juejin.im/post/5c9cbf1df265da60f6731f0a
+
 
