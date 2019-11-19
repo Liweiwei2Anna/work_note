@@ -17,3 +17,5 @@ https://hencoder.com/
 区长:https://fucknmb.com/
 
 逆向分析：https://blog.csdn.net/jiangwei0910410003
+
+https://www.jianshu.com/u/6291827f7292
