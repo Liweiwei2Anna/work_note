@@ -2,7 +2,7 @@
 
 Knowledge of Language, Architecture on the way of my work.
 
-**Android:**
+<font size=10>**Android:**</font>
 
 The knowledge of Java, Kotlin, Android, Jetpack, C, C++， Architecture on the way of my work.
 
