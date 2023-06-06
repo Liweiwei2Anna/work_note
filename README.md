@@ -2,17 +2,17 @@
 
 Knowledge of Language, Architecture on the way of my work.
 
-Android:
+#Android:
 
 The knowledge of Java, Kotlin, Android, Jetpack, C, C++， Architecture on the way of my work.
 
 The logic of Java , Kotlin, Compose, Jetpack, Android Framework and architecture of software.
 
-ios:
+#ios:
 
 The knowledge of Swift, SwiftUI.
 
-LLM:
+#LLM:
 
 The knowledge of Python, Libraries.
 
