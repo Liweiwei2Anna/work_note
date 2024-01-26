@@ -127,4 +127,6 @@ java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一:http
 
 扯一扯HTTPS单向认证、双向认证、抓包原理、反抓包策略:https://juejin.im/post/5c9cbf1df265da60f6731f0a
 
+抖音平台技术架构分析 抖音app架构 https://blog.51cto.com/u_16099331/8806823
+
 
